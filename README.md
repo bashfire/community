@@ -2,6 +2,8 @@
 
 Welcome to the Kubernetes community!
 
+An intentonal mspelling
+
 This is the starting point for joining and contributing to the Kubernetes community - improving docs, improving code, giving talks etc.
 
 To learn more about the project structure and organization, please refer to [Project Governance] information.
