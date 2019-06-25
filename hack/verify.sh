@@ -18,6 +18,8 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
+set -x
+
 KUBE_ROOT=$(dirname "${BASH_SOURCE}")/..
 
 # Some useful colors.
