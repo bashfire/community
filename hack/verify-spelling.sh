@@ -18,6 +18,8 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
+set -x
+
 export KUBE_ROOT=$(dirname "${BASH_SOURCE}")/..
 
 # Install tools we need, but only from vendor/...

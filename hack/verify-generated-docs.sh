@@ -18,6 +18,8 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
+set -x
+
 CRT_DIR=$(pwd)
 VERIFY_TEMP=$(mktemp -d 2>/dev/null || mktemp -d -t k8s-community.XXXXXX)
 WORKING_DIR="${VERIFY_TEMP}/src/testgendocs"
